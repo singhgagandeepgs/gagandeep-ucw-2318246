@@ -3,7 +3,29 @@ This repository contains several projects created on the AWS platform as part of
 
 ![AWS Pipeline](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/26124b2e16af6717638e4c09e7739dcf50ca6e71/DAP_Design_Components.png)
 
-# 1. Descriptive Analysis
+# 1. Data Wrangling
+**Project Title**: Data Wrangling of “Issued operating permits – water systems”
+
+**Objective**: The overarching aim of this project is to perform comprehensive data wrangling to prepare a robust dataset for descriptive and exploratory analytics for the Operating Permits – Water Systems dataset of the City of Vancouver made available to us by the Open Data Portal. By cleaning, transforming, and consolidating data from various sources, the project aims to enhance the accuracy and usability of water systems data for subsequent analysis and reporting.
+
+**Tools and Technologies**: Primarily, the AWS Glue DataBrew service was used to carry out data wrangling wherein a recipe as a resource was used to document and publish the data cleaning and transformation steps.
+Methodology:
+1.	*Data Collection*: As part of the data ingestion process, the dataset was exported in Excel format from the City of Vancouver – Open Data Portal and then uploaded to the raw S3 bucket on AWS.
+2.	*Data Profiling*: An initial assessment of the dataset was conducted to understand its structure and content, such as the number of rows and columns and (data) types of the columns. Issues such as missing values, duplicate values, invalid values, etc., were also examined during the profiling process.
+3.	*Data Cleaning and transformation*: Through the data cleaning process, a high-quality dataset was obtained after performing functions like fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data. In particular, the following functions were carried out.
+- The whitespaces were replaced with underscores in all the field names.
+- The format of the date columns was changed to “yyyy-mm-dd.”
+- 3 new columns for the Permit Renewal Year, Quarter, and Month, respectively, were created from the Permit_Renewal_Date column using the dateTime function.
+- Some columns, such as Escherichia coli, Geom, Geo Local Area, Water quality reports link, geo_point_2d, etc., were removed/deleted.
+4.	*Storing the High-Quality Dataset*: The cleaned and transformed dataset was stored in two folders, System and User, in the transform bucket of AWS S3. The System folder holds the dataset in PARQUET format with SNAPPY compression, while the User folder contains the dataset in CSV format with no compression.
+
+
+# 2. Data Quality and Privacy
+
+
+
+
+# 3. Descriptive Analysis
 **Project Description**: Descriptive Analysis of “Issued operating permits – water systems”
 
 **Project Title**: Understanding the Summary Statistics of Water Systems Operating Permits at the City of Vancouver
@@ -44,7 +66,7 @@ The insights derived from the descriptive analysis of the given dataset were as 
 4.	Nearly 30% of the permit holders are due to renew their operating permits in the first two months (January and February) of 2025.
 
 
-# 2. Exploratory Analysis
+# 4. Exploratory Analysis
 **Project Description**: Exploratory Analysis of “Issued operating permits – water systems”
 
 **Project Title**: Finding Patterns and Trends in the Operating Permits of Water Systems
