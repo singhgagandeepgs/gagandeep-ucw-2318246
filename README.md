@@ -1,9 +1,27 @@
-# gagandeep-ucw-2318246
-This repository contains several projects created on the AWS platform as part of my MBA - Cloud Computing course.
+# Gagandeep Singh - Data Analyst Portfolio #
 
-![AWS Pipeline](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/26124b2e16af6717638e4c09e7739dcf50ca6e71/DAP_Design_Components.png)
+# About me
+Hi there, I am Gagandeep Singh. I have several years of experience in the IT industry in QA domain and currently I am pursuing MBA from University Canada West, Vancouver, BC, Canada. Data analysis has remained part of my QA job while dealing with the large data dumps aka legacy data when migrating them to the newly built system softwares. Moreover, I have officially learnt business and data analytics as part of several courses in my MBA journey, such as Quantitative Analysis, Business Analytics, Cloud Computing. All this learing has enabled to gain expertise in Excel, PowerBI, Tableau, AWS, and SQL for efficiently deploying data analytics techniques viz. data mining, data wrangling, data governance, data analytics, dashboard building, report writing, etc.
+
+This repository contains some projects from an array of projects I created on the AWS platform as part of my MBA - Cloud Computing course. I strive do to do many more amazing projects in the field of Data Analytics in future and expand my portfolio of projects.
+
+I hope you will like the work showcased below to be informative and engaging, and I welcome any opportunity to discuss my qualifications further with you.
+
+# Table of Contents
+- ![About Me](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#about-me)
+- ![Projects Undertaken](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#projects-undertaken)
+  - ![1. Descriptive Analysis](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#1-descriptive-analysis)
+  - ![2. Exploratory Analysis](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#2-exploratory-analysis)
+  - ![3. Data Wrangling](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#3-data-wrangling)
+  - ![4. Data Quality and Privacy](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#4-data-quality-and-privacy)
+- ![Certificates](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#certificates)
+- ![Contact Information](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#contact-information)
+
+# Projects Undertaken
 
 # 1. Descriptive Analysis
+![AWS System Design for Data Analysis - Draw.io](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/DAP_Design_Components.png)
+
 **Project Description**: Descriptive Analysis of “Issued operating permits – water systems”
 
 **Project Title**: Understanding the Summary Statistics of Water Systems Operating Permits at the City of Vancouver
@@ -28,6 +46,9 @@ This repository contains several projects created on the AWS platform as part of
 - The Open Data Portal of the City of Vancouver provides a built-in feature named Chart Builder. This has been used to create different visualizations.
 
 **Methodology**:
+
+![Descriptive ETL Pipeline](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Desc-ETL-Pipeline.png)
+
 1.	*Data Collection and Preparation*: As part of the data ingestion process, the dataset was exported in Excel format from the City of Vancouver – Open Data Portal and then uploaded to the raw S3 bucket on AWS. Further, the dataset was prepared for the descriptive analysis by profiling and cleaning it using the AWS Glue DataBrew.
 2.	*Descriptive Statistics*: To find the answers to the descriptive questions given, ETL pipelines were designed using the AWS Glue service.
 3.	*Data Visualization*: Different kinds of visual representations were also created to illustrate the findings produced by the ETL pipelines, such as:
@@ -37,6 +58,15 @@ This repository contains several projects created on the AWS platform as part of
 - Treemap for the count of permits renewed by month
 
 **Insights and Findings**:
+
+![Descriptive Visualization Q1](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Desc-Q1-BarChart.png)
+
+![Descriptive Visualization Q2](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Desc-Q2-StackedBarChart.png)
+
+![Descriptive Visualization Q3](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Desc-Q3-PieChart.png)
+
+![Descriptive Visualization Q4](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Desc-Q4-TreeMap.png)
+
 The insights derived from the descriptive analysis of the given dataset were as follows:
 1.	The Cooling Tower system has the highest number of active permits, followed by the Decorative Water Feature system. The rainwater harvesting system has the least active permits.
 2.	The proportion of voluntary participation by the system owners is significantly less, merely a little over three percent.
@@ -66,17 +96,26 @@ The insights derived from the descriptive analysis of the given dataset were as 
 - Scatter Plot for the difference in date of reporting and renewal
 
 **Insights and Findings**:
+
+![Exploratory Visualization Q1](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Expl-Q1-ColumnChart.png)
+
+![Exploratory Visualization Q2](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Expl-Q2-ScatterPlot.png)
+
 1.	The average turbidity was proportional to the average temperature for the permits renewed in the spring season. However, the turbidity was much lower relative to the temperature from fall to winter.
 2.	The difference between the date of reporting and renewal has remained under 2 years for 90% of the permits.
 
 
 # 3. Data Wrangling
+
+![AWS System Design for Data Wrangling - Draw.io](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Data-Wrangling-Design-DrawIO.png)
+
 **Project Title**: Data Wrangling of “Issued operating permits – water systems”
 
 **Objective**: The overarching aim of this project is to perform comprehensive data wrangling to prepare a robust dataset for descriptive and exploratory analytics for the Operating Permits – Water Systems dataset of the City of Vancouver made available to us by the Open Data Portal. By cleaning, transforming, and consolidating data from various sources, the project aims to enhance the accuracy and usability of water systems data for subsequent analysis and reporting.
 
 **Tools and Technologies**: Primarily, the AWS Glue DataBrew service was used to carry out data wrangling wherein a recipe as a resource was used to document and publish the data cleaning and transformation steps.
-Methodology:
+
+**Methodology**:
 1.	*Data Collection*: As part of the data ingestion process, the dataset was exported in Excel format from the City of Vancouver – Open Data Portal and then uploaded to the raw S3 bucket on AWS.
 2.	*Data Profiling*: An initial assessment of the dataset was conducted to understand its structure and content, such as the number of rows and columns and (data) types of the columns. Issues such as missing values, duplicate values, invalid values, etc., were also examined during the profiling process.
 3.	*Data Cleaning and transformation*: Through the data cleaning process, a high-quality dataset was obtained after performing functions like fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data. In particular, the following functions were carried out.
@@ -88,6 +127,9 @@ Methodology:
 
 
 # 4. Data Quality and Privacy
+
+![AWS System Design for Data Quality Control - Draw.io](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/DPQC-Design-DrawIO.png)
+
 **Project Title**: Data Quality Control Initiative for the City of Vancouver’s Datasets
 
 **Project Description**: Implementation of Data Quality Control Measures for the City of Vancouver’s datasets
@@ -102,9 +144,25 @@ Scope: This project focused on the following key areas:
 **Tools and Technologies**: The ETL pipeline resource mainly with two transform nodes, “Detect Sensitive Data” and “Evaluate Data Quality” on AWS Glue service is used
 
 **Methodology**:
+
+![DPQC ETL Pipeline](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/DPQC-ETL-Pipeline.png)
+
 1.	_Data Privacy_: This is achieved by using the transform node named “Detect Sensitive Data” in the ETL pipeline on AWS Glue. As the dataset belongs to Canadian permit holders, seven types of sensitive data for Canada are added to the privacy rule to mask it.
 2.	_Data Quality_: This is achieved by using the transform node named “Evaluate Data Quality” in the ETL pipeline on AWS Glue. The uniqueness rule is added for the primary key column to ensure that it never violates the primary key constraint. The completeness rule is configured for many other columns, which must never have a null value. Date Freshness is used to filter the dataset where the reporting date is within 3 years.
 
 **Deliverables**:
 1.	A comprehensive Data Quality Control ETL pipeline with privacy and quality nodes configured.
 2.	Cleaned and validated datasets ready for analysis and reporting.
+
+
+# Certificates
+- [BADGE - AWS Academy Graduate - AWS Academy Cloud Foundations](https://www.credly.com/go/MIRV54Tu) (AWS Academy)
+
+
+# Contact Information
+- **LinkedIn**: [@gagandeepsingh247](https://www.linkedin.com/in/gagandeepsingh247/)
+- **Email**: singh.gagandeepgs@gmail.com
+- **UCW Student ID**: 2318246
+
+
+_**Thank you for your time, I look forward to hearing from you soon.**_
