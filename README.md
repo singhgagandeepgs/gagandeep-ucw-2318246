@@ -3,29 +3,7 @@ This repository contains several projects created on the AWS platform as part of
 
 ![AWS Pipeline](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/26124b2e16af6717638e4c09e7739dcf50ca6e71/DAP_Design_Components.png)
 
-# 1. Data Wrangling
-**Project Title**: Data Wrangling of “Issued operating permits – water systems”
-
-**Objective**: The overarching aim of this project is to perform comprehensive data wrangling to prepare a robust dataset for descriptive and exploratory analytics for the Operating Permits – Water Systems dataset of the City of Vancouver made available to us by the Open Data Portal. By cleaning, transforming, and consolidating data from various sources, the project aims to enhance the accuracy and usability of water systems data for subsequent analysis and reporting.
-
-**Tools and Technologies**: Primarily, the AWS Glue DataBrew service was used to carry out data wrangling wherein a recipe as a resource was used to document and publish the data cleaning and transformation steps.
-Methodology:
-1.	*Data Collection*: As part of the data ingestion process, the dataset was exported in Excel format from the City of Vancouver – Open Data Portal and then uploaded to the raw S3 bucket on AWS.
-2.	*Data Profiling*: An initial assessment of the dataset was conducted to understand its structure and content, such as the number of rows and columns and (data) types of the columns. Issues such as missing values, duplicate values, invalid values, etc., were also examined during the profiling process.
-3.	*Data Cleaning and transformation*: Through the data cleaning process, a high-quality dataset was obtained after performing functions like fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data. In particular, the following functions were carried out.
-- The whitespaces were replaced with underscores in all the field names.
-- The format of the date columns was changed to “yyyy-mm-dd.”
-- 3 new columns for the Permit Renewal Year, Quarter, and Month, respectively, were created from the Permit_Renewal_Date column using the dateTime function.
-- Some columns, such as Escherichia coli, Geom, Geo Local Area, Water quality reports link, geo_point_2d, etc., were removed/deleted.
-4.	*Storing the High-Quality Dataset*: The cleaned and transformed dataset was stored in two folders, System and User, in the transform bucket of AWS S3. The System folder holds the dataset in PARQUET format with SNAPPY compression, while the User folder contains the dataset in CSV format with no compression.
-
-
-# 2. Data Quality and Privacy
-
-
-
-
-# 3. Descriptive Analysis
+# 1. Descriptive Analysis
 **Project Description**: Descriptive Analysis of “Issued operating permits – water systems”
 
 **Project Title**: Understanding the Summary Statistics of Water Systems Operating Permits at the City of Vancouver
@@ -66,7 +44,7 @@ The insights derived from the descriptive analysis of the given dataset were as 
 4.	Nearly 30% of the permit holders are due to renew their operating permits in the first two months (January and February) of 2025.
 
 
-# 4. Exploratory Analysis
+# 2. Exploratory Analysis
 **Project Description**: Exploratory Analysis of “Issued operating permits – water systems”
 
 **Project Title**: Finding Patterns and Trends in the Operating Permits of Water Systems
@@ -90,3 +68,43 @@ The insights derived from the descriptive analysis of the given dataset were as 
 **Insights and Findings**:
 1.	The average turbidity was proportional to the average temperature for the permits renewed in the spring season. However, the turbidity was much lower relative to the temperature from fall to winter.
 2.	The difference between the date of reporting and renewal has remained under 2 years for 90% of the permits.
+
+
+# 3. Data Wrangling
+**Project Title**: Data Wrangling of “Issued operating permits – water systems”
+
+**Objective**: The overarching aim of this project is to perform comprehensive data wrangling to prepare a robust dataset for descriptive and exploratory analytics for the Operating Permits – Water Systems dataset of the City of Vancouver made available to us by the Open Data Portal. By cleaning, transforming, and consolidating data from various sources, the project aims to enhance the accuracy and usability of water systems data for subsequent analysis and reporting.
+
+**Tools and Technologies**: Primarily, the AWS Glue DataBrew service was used to carry out data wrangling wherein a recipe as a resource was used to document and publish the data cleaning and transformation steps.
+Methodology:
+1.	*Data Collection*: As part of the data ingestion process, the dataset was exported in Excel format from the City of Vancouver – Open Data Portal and then uploaded to the raw S3 bucket on AWS.
+2.	*Data Profiling*: An initial assessment of the dataset was conducted to understand its structure and content, such as the number of rows and columns and (data) types of the columns. Issues such as missing values, duplicate values, invalid values, etc., were also examined during the profiling process.
+3.	*Data Cleaning and transformation*: Through the data cleaning process, a high-quality dataset was obtained after performing functions like fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data. In particular, the following functions were carried out.
+- The whitespaces were replaced with underscores in all the field names.
+- The format of the date columns was changed to “yyyy-mm-dd.”
+- 3 new columns for the Permit Renewal Year, Quarter, and Month, respectively, were created from the Permit_Renewal_Date column using the dateTime function.
+- Some columns, such as Escherichia coli, Geom, Geo Local Area, Water quality reports link, geo_point_2d, etc., were removed/deleted.
+4.	*Storing the High-Quality Dataset*: The cleaned and transformed dataset was stored in two folders, System and User, in the transform bucket of AWS S3. The System folder holds the dataset in PARQUET format with SNAPPY compression, while the User folder contains the dataset in CSV format with no compression.
+
+
+# 4. Data Quality and Privacy
+**Project Title**: Data Quality Control Initiative for the City of Vancouver’s Datasets
+
+**Project Description**: Implementation of Data Quality Control Measures for the City of Vancouver’s datasets
+
+**Objective**: The primary objective of this project is to establish a comprehensive Data Quality Control (DQC) framework for the datasets provided by the Open Data Portal for the City of Vancouver. This framework will ensure the accuracy, completeness, consistency, and reliability of the organization's data, enhancing decision-making processes and overall business performance.
+
+**Background**: As the City of Vancouver continues to expand its operations and data sources, issues related to data quality have surfaced, including inaccuracies, duplicate records, and inconsistent formats. Poor data quality can lead to misguided business strategies, inefficiencies, and regulatory compliance risks. This project aims to implement robust data quality control measures to mitigate these issues.
+Scope: This project focused on the following key areas:
+- Data Privacy: Masking Personal Identifiable Information (PII) in the entire dataset.
+- Data Quality: Evaluating the completeness, uniqueness, and date freshness of the respective columns.
+
+**Tools and Technologies**: The ETL pipeline resource mainly with two transform nodes, “Detect Sensitive Data” and “Evaluate Data Quality” on AWS Glue service is used
+
+**Methodology**:
+1.	_Data Privacy_: This is achieved by using the transform node named “Detect Sensitive Data” in the ETL pipeline on AWS Glue. As the dataset belongs to Canadian permit holders, seven types of sensitive data for Canada are added to the privacy rule to mask it.
+2.	_Data Quality_: This is achieved by using the transform node named “Evaluate Data Quality” in the ETL pipeline on AWS Glue. The uniqueness rule is added for the primary key column to ensure that it never violates the primary key constraint. The completeness rule is configured for many other columns, which must never have a null value. Date Freshness is used to filter the dataset where the reporting date is within 3 years.
+
+**Deliverables**:
+1.	A comprehensive Data Quality Control ETL pipeline with privacy and quality nodes configured.
+2.	Cleaned and validated datasets ready for analysis and reporting.
