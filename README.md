@@ -1,4 +1,4 @@
-# Gagandeep Singh - Data Analyst Portfolio #
+# Gagandeep Singh - Data Analyst Portfolio QWERWR #
 
 ## About me
 Hi there, I am Gagandeep Singh. I have several years of experience in the IT industry in the QA domain, and currently, I am pursuing an MBA from the University of Canada West, Vancouver, BC, Canada. Data analysis has remained part of my QA job while dealing with the large data dumps, aka legacy data when migrating them to the newly built system software. Moreover, I have officially learnt business and data analytics as part of several courses in my MBA journey, such as Quantitative Analysis, Business Analytics, and loud Computing. All this learning has enabled me to gain expertise in Excel, PowerBI, Tableau, AWS, and SQL for efficiently deploying data analytics techniques, viz., data mining, data wrangling, data governance, data analytics, dashboard building, report writing, etc.
