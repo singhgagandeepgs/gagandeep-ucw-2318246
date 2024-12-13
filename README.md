@@ -7,6 +7,7 @@ This repository contains several projects created on AWS platform as part of my 
 **Project Title**: Understanding the Summary Statistics of Water Systems Operating Permits at the City of Vancouver
 
 **Objective**: The core objective of this descriptive analysis is to answer some significant descriptive business questions for comprehensive insights and enable data-driven decision-making through the summarization of the key characteristics and trends. These insights will help the city increase operational efficiency and enhance public service delivery.
+Q.1. sdf
 
   *Q.1. How many systems in each category are currently Active vs. Inactive?*
   *Q.2. How many mechanical system owners are voluntarily participating in the Operating Permit program?*
