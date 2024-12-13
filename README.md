@@ -1,6 +1,8 @@
 # gagandeep-ucw-2318246
 This repository contains several projects created on the AWS platform as part of my MBA - Cloud Computing course.
 
+![AWS Pipeline](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/21d4a689e07442b0d5ddb442a5a9bb9d7cd88a0d/DAP_Design_Components.png)
+
 # 1. Descriptive Analysis
 **Project Description**: Descriptive Analysis of “Issued operating permits – water systems”
 
