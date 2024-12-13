@@ -20,7 +20,7 @@ I hope you will like the work showcased below to be informative and engaging, an
 # Projects Undertaken
 
 # 1. Descriptive Analysis
-![AWS System Design for Data Analysis - Draw.io](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/DAP_Design_Components.png)
+![AWS System Design for Data Analysis - Draw.io](DAP_Design_Components.png)
 
 **Project Description**: Descriptive Analysis of “Issued operating permits – water systems”
 
