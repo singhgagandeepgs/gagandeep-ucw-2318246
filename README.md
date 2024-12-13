@@ -1,13 +1,13 @@
 # Gagandeep Singh - Data Analyst Portfolio #
 
-# About me
-Hi there, I am Gagandeep Singh. I have several years of experience in the IT industry in QA domain and currently I am pursuing MBA from University Canada West, Vancouver, BC, Canada. Data analysis has remained part of my QA job while dealing with the large data dumps aka legacy data when migrating them to the newly built system softwares. Moreover, I have officially learnt business and data analytics as part of several courses in my MBA journey, such as Quantitative Analysis, Business Analytics, Cloud Computing. All this learing has enabled to gain expertise in Excel, PowerBI, Tableau, AWS, and SQL for efficiently deploying data analytics techniques viz. data mining, data wrangling, data governance, data analytics, dashboard building, report writing, etc.
+## About me
+Hi there, I am Gagandeep Singh. I have several years of experience in the IT industry in the QA domain, and currently, I am pursuing an MBA from the University of Canada West, Vancouver, BC, Canada. Data analysis has remained part of my QA job while dealing with the large data dumps, aka legacy data when migrating them to the newly built system software. Moreover, I have officially learnt business and data analytics as part of several courses in my MBA journey, such as Quantitative Analysis, Business Analytics, and loud Computing. All this learning has enabled me to gain expertise in Excel, PowerBI, Tableau, AWS, and SQL for efficiently deploying data analytics techniques, viz., data mining, data wrangling, data governance, data analytics, dashboard building, report writing, etc.
 
-This repository contains some projects from an array of projects I created on the AWS platform as part of my MBA - Cloud Computing course. I strive do to do many more amazing projects in the field of Data Analytics in future and expand my portfolio of projects.
+This repository contains some projects from an array of projects I created on the AWS platform as part of my MBA - Cloud Computing course. I strive to do many more amazing projects in the field of data analytics in the future and expand my portfolio of projects.
 
-I hope you will like the work showcased below to be informative and engaging, and I welcome any opportunity to discuss my qualifications further with you.
+I hope you will find the work showcased below informative and engaging, and I welcome any opportunity to discuss my qualifications further with you.
 
-# Table of Contents
+## Table of Contents
 - [About Me](#about-me)
 - [Projects Undertaken](#projects-undertaken)
   - [1. Descriptive Analysis](#1-descriptive-analysis)
@@ -17,9 +17,9 @@ I hope you will like the work showcased below to be informative and engaging, an
 - [Certificates](#certificates)
 - [Contact Information](#contact-information)
 
-# Projects Undertaken
+## Projects Undertaken
 
-# 1. Descriptive Analysis
+### 1. Descriptive Analysis
 ![AWS System Design for Data Analysis - Draw.io](DAP_Design_Components.png)
 
 **Project Description**: Descriptive Analysis of “Issued operating permits – water systems”
@@ -74,7 +74,7 @@ The insights derived from the descriptive analysis of the given dataset were as 
 4.	Nearly 30% of the permit holders are due to renew their operating permits in the first two months (January and February) of 2025.
 
 
-# 2. Exploratory Analysis
+### 2. Exploratory Analysis
 **Project Description**: Exploratory Analysis of “Issued operating permits – water systems”
 
 **Project Title**: Finding Patterns and Trends in the Operating Permits of Water Systems
@@ -105,7 +105,7 @@ The insights derived from the descriptive analysis of the given dataset were as 
 2.	The difference between the date of reporting and renewal has remained under 2 years for 90% of the permits.
 
 
-# 3. Data Wrangling
+### 3. Data Wrangling
 
 ![AWS System Design for Data Wrangling - Draw.io](Data-Wrangling-Design-DrawIO.png)
 
@@ -126,7 +126,7 @@ The insights derived from the descriptive analysis of the given dataset were as 
 4.	*Storing the High-Quality Dataset*: The cleaned and transformed dataset was stored in two folders, System and User, in the transform bucket of AWS S3. The System folder holds the dataset in PARQUET format with SNAPPY compression, while the User folder contains the dataset in CSV format with no compression.
 
 
-# 4. Data Quality and Privacy
+### 4. Data Quality and Privacy
 
 ![AWS System Design for Data Quality Control - Draw.io](DPQC-Design-DrawIO.png)
 
@@ -155,11 +155,11 @@ Scope: This project focused on the following key areas:
 2.	Cleaned and validated datasets ready for analysis and reporting.
 
 
-# Certificates
+## Certificates
 - [BADGE - AWS Academy Graduate - AWS Academy Cloud Foundations](https://www.credly.com/go/MIRV54Tu) (AWS Academy)
 
 
-# Contact Information
+## Contact Information
 - **LinkedIn**: [@gagandeepsingh247](https://www.linkedin.com/in/gagandeepsingh247/)
 - **Email**: singh.gagandeepgs@gmail.com
 - **UCW Student ID**: 2318246
