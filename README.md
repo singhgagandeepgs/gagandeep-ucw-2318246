@@ -8,14 +8,14 @@ This repository contains some projects from an array of projects I created on th
 I hope you will like the work showcased below to be informative and engaging, and I welcome any opportunity to discuss my qualifications further with you.
 
 # Table of Contents
-- ![About Me](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#about-me)
-- ![Projects Undertaken](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#projects-undertaken)
-  - ![1. Descriptive Analysis](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#1-descriptive-analysis)
-  - ![2. Exploratory Analysis](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#2-exploratory-analysis)
-  - ![3. Data Wrangling](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#3-data-wrangling)
-  - ![4. Data Quality and Privacy](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#4-data-quality-and-privacy)
-- ![Certificates](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#certificates)
-- ![Contact Information](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#contact-information)
+- [About Me](#about-me)
+- [Projects Undertaken](#projects-undertaken)
+  - [1. Descriptive Analysis](#1-descriptive-analysis)
+  - [2. Exploratory Analysis](#2-exploratory-analysis)
+  - [3. Data Wrangling](#3-data-wrangling)
+  - [4. Data Quality and Privacy](#4-data-quality-and-privacy)
+- [Certificates](#certificates)
+- [Contact Information](#contact-information)
 
 # Projects Undertaken
 
@@ -47,7 +47,7 @@ I hope you will like the work showcased below to be informative and engaging, an
 
 **Methodology**:
 
-![Descriptive ETL Pipeline](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Desc-ETL-Pipeline.png)
+![Descriptive ETL Pipeline](Desc-ETL-Pipeline.png)
 
 1.	*Data Collection and Preparation*: As part of the data ingestion process, the dataset was exported in Excel format from the City of Vancouver – Open Data Portal and then uploaded to the raw S3 bucket on AWS. Further, the dataset was prepared for the descriptive analysis by profiling and cleaning it using the AWS Glue DataBrew.
 2.	*Descriptive Statistics*: To find the answers to the descriptive questions given, ETL pipelines were designed using the AWS Glue service.
@@ -59,13 +59,13 @@ I hope you will like the work showcased below to be informative and engaging, an
 
 **Insights and Findings**:
 
-![Descriptive Visualization Q1](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Desc-Q1-BarChart.png)
+![Descriptive Visualization Q1](Desc-Q1-BarChart.png)
 
-![Descriptive Visualization Q2](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Desc-Q2-StackedBarChart.png)
+![Descriptive Visualization Q2](Desc-Q2-StackedBarChart.png)
 
-![Descriptive Visualization Q3](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Desc-Q3-PieChart.png)
+![Descriptive Visualization Q3](Desc-Q3-PieChart.png)
 
-![Descriptive Visualization Q4](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Desc-Q4-TreeMap.png)
+![Descriptive Visualization Q4](Desc-Q4-TreeMap.png)
 
 The insights derived from the descriptive analysis of the given dataset were as follows:
 1.	The Cooling Tower system has the highest number of active permits, followed by the Decorative Water Feature system. The rainwater harvesting system has the least active permits.
@@ -97,9 +97,9 @@ The insights derived from the descriptive analysis of the given dataset were as 
 
 **Insights and Findings**:
 
-![Exploratory Visualization Q1](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Expl-Q1-ColumnChart.png)
+![Exploratory Visualization Q1](Expl-Q1-ColumnChart.png)
 
-![Exploratory Visualization Q2](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Expl-Q2-ScatterPlot.png)
+![Exploratory Visualization Q2](Expl-Q2-ScatterPlot.png)
 
 1.	The average turbidity was proportional to the average temperature for the permits renewed in the spring season. However, the turbidity was much lower relative to the temperature from fall to winter.
 2.	The difference between the date of reporting and renewal has remained under 2 years for 90% of the permits.
@@ -107,7 +107,7 @@ The insights derived from the descriptive analysis of the given dataset were as 
 
 # 3. Data Wrangling
 
-![AWS System Design for Data Wrangling - Draw.io](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/Data-Wrangling-Design-DrawIO.png)
+![AWS System Design for Data Wrangling - Draw.io](Data-Wrangling-Design-DrawIO.png)
 
 **Project Title**: Data Wrangling of “Issued operating permits – water systems”
 
@@ -128,7 +128,7 @@ The insights derived from the descriptive analysis of the given dataset were as 
 
 # 4. Data Quality and Privacy
 
-![AWS System Design for Data Quality Control - Draw.io](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/DPQC-Design-DrawIO.png)
+![AWS System Design for Data Quality Control - Draw.io](DPQC-Design-DrawIO.png)
 
 **Project Title**: Data Quality Control Initiative for the City of Vancouver’s Datasets
 
@@ -145,7 +145,7 @@ Scope: This project focused on the following key areas:
 
 **Methodology**:
 
-![DPQC ETL Pipeline](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/blob/040fd49208a1a022f8fbdf8c04269a8f37e10673/DPQC-ETL-Pipeline.png)
+![DPQC ETL Pipeline](DPQC-ETL-Pipeline.png)
 
 1.	_Data Privacy_: This is achieved by using the transform node named “Detect Sensitive Data” in the ETL pipeline on AWS Glue. As the dataset belongs to Canadian permit holders, seven types of sensitive data for Canada are added to the privacy rule to mask it.
 2.	_Data Quality_: This is achieved by using the transform node named “Evaluate Data Quality” in the ETL pipeline on AWS Glue. The uniqueness rule is added for the primary key column to ensure that it never violates the primary key constraint. The completeness rule is configured for many other columns, which must never have a null value. Date Freshness is used to filter the dataset where the reporting date is within 3 years.
