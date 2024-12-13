@@ -8,14 +8,14 @@ This repository contains some projects from an array of projects I created on th
 I hope you will like the work showcased below to be informative and engaging, and I welcome any opportunity to discuss my qualifications further with you.
 
 # Table of Contents
-- ![About Me](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#about-me)
-- ![Projects Undertaken](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#projects-undertaken)
-  - ![1. Descriptive Analysis](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#1-descriptive-analysis)
-  - ![2. Exploratory Analysis](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#2-exploratory-analysis)
-  - ![3. Data Wrangling](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#3-data-wrangling)
-  - ![4. Data Quality and Privacy](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#4-data-quality-and-privacy)
-- ![Certificates](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#certificates)
-- ![Contact Information](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246/edit/main/README.md#contact-information)
+- ![About Me](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#about-me)
+- ![Projects Undertaken](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#projects-undertaken)
+  - ![1. Descriptive Analysis](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#1-descriptive-analysis)
+  - ![2. Exploratory Analysis](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#2-exploratory-analysis)
+  - ![3. Data Wrangling](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#3-data-wrangling)
+  - ![4. Data Quality and Privacy](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#4-data-quality-and-privacy)
+- ![Certificates](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#certificates)
+- ![Contact Information](https://github.com/singhgagandeepgs/gagandeep-ucw-2318246#contact-information)
 
 # Projects Undertaken
 
